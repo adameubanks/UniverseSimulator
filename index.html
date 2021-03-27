@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Universe Simulator | A Playground for Celestial Mechanics</title>
+    <title>Unity WebGL Player | Universe Simulator</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -27,15 +27,15 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/UniverseSimulatorBeta.loader.js";
+      var loaderUrl = buildUrl + "/UniverseSimulator1.0.loader.js";
       var config = {
-        dataUrl: buildUrl + "/UniverseSimulatorBeta.data.gz",
-        frameworkUrl: buildUrl + "/UniverseSimulatorBeta.framework.js.gz",
-        codeUrl: buildUrl + "/UniverseSimulatorBeta.wasm.gz",
+        dataUrl: buildUrl + "/UniverseSimulator1.0.data.unityweb",
+        frameworkUrl: buildUrl + "/UniverseSimulator1.0.framework.js.unityweb",
+        codeUrl: buildUrl + "/UniverseSimulator1.0.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "New Unity Project",
-        productVersion: "0.1",
+        companyName: "AdamEubanks",
+        productName: "Universe Simulator",
+        productVersion: "1.0",
       };
 
       var container = document.querySelector("#unity-container");
