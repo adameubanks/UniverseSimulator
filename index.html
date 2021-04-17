@@ -3,11 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Universe Simulator</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
+    <title>Universe Simulator | A Playground for Celestial Mechanics</title>
+    <link rel="shortcut icon" href="Assets/logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/solar/bootstrap.min.css" integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+      <a class="navbar-brand nav-link" href="https://khanradcoder.github.io/UniverseSimulator/">
+        <img src="Assets/logo.svg" width="50" height="50" class="d-inline-block" alt=""> Universe Simulator</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Play <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br><br>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
@@ -74,5 +91,12 @@
       };
       document.body.appendChild(script);
     </script>
+    <h2>Instructions:</h2>
+    <ul>
+      <li>WASD or ARROW KEYS to move left, right, forward and backward</li>
+      <li>Q and E to move up and down</li>
+      <li>RIGHT-CLICK and drag to change camera view</li>
+      <li>Press SHIFT while moving to move faster</li>
+    </ul>
   </body>
 </html>

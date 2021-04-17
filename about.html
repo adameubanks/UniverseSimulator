@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Universe Simulator | A Playground for Celestial Mechanics</title>
+    <link rel="shortcut icon" href="Assets/logo.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/solar/bootstrap.min.css" integrity="sha384-NCwXci5f5ZqlDw+m7FwZSAwboa0svoPPylIW3Nf+GBDsyVum+yArYnaFLE9UDzLd" crossorigin="anonymous">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+      <a class="navbar-brand nav-link" href="https://khanradcoder.github.io/UniverseSimulator/">
+        <img src="Assets/logo.svg" width="50" height="50" class="d-inline-block" alt=""> Universe Simulator</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Play</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-8">
+          <h1>About Universe Simulator</h1>
+          <p><i>Universe Simulator: A Playground for Celestial Mechanics</i> is a project of Adam Eubanks created in 2021.</p>
+          <h2>Vision</h2>
+          <p>The vision of <i>Universe Simulator</i> is to increase accessibility and understanding of the equations that govern the Universe.
+          Too often physics is taught through abstract equations that many students may lack an intuitive basis for.
+          By allowing students to see how physical laws are manifested in the movement of celestial bodies, abstract equations become general intuitions.
+          This is essential because it fosters a greater understanding and appreciation for the magnificence of our universe.
+          If you would like to learn more about the methodology behind the creation of <i>Universe Simulator</i>,
+          please view <a href="ModelingTheUniverseCapstonePaperAdamEubanks.pdf">this paper</a>
+          on the equations that were chosen to be represented in the simulation, as well as the history behind them.</p>
+          <h2>Limitations</h2>
+          <p>While efforts were made to make <i>Universe Simulator</i> both playable and physically representative of real planets,
+            compromises were required to be made in order to preserve computational efficiency. For instance, <i>Universe Simulator</i></p>
+            <ul>
+              <li>Is on a scale of 10^5 m, but only 10^9 kg, meaning that objects are much less dense than they would be in real life</li>
+              <li>Can only represent object masses up to 10^18 kg, which is roughly the mass of a small moon.</li>
+              <li>Does not have thourough animations or representations of collisions.</li>
+            </ul>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+    </div>
+  </body>
+</html>
